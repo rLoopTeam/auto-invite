@@ -1,0 +1,56 @@
+{
+  "name": "@rloopteam/auto-invite",
+  "description": "Auto invite people to slack and trello, but only after they&#39;ve signed something",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "gulp test",
+    "test:cov": "gulp test:cov",
+    "build": "gulp build",
+    "watch": "gulp watch",
+    "lint": "gulp lint",
+    "travis": "gulp travis"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rloopteam/auto-invite.git"
+  },
+  "author": {
+    "name": "Ari Porad",
+    "email": "ariporad@rloop.org",
+    "url": "http://ariporad.com"
+  },
+  "contributors": [],
+  "devDependencies": {
+    "babel": "5",
+    "babel-eslint": "4",
+    "chai": "3",
+    "chai-as-promised": "5",
+    "coveralls": "2",
+    "cz-conventional-changelog": "1",
+    "del": "2",
+    "eslint": "1",
+    "eslint-config-airbnb": "0.1",
+    "gulp": "3",
+    "gulp-babel": "5",
+    "gulp-changed": "1",
+    "gulp-eslint": "1",
+    "gulp-sourcemaps": "1",
+    "gulp-util": "3",
+    "load-deps": "1",
+    "mocha": "2",
+    "require-dir": "0.3",
+    "rewire": "2",
+    "sinomocha": "0.2",
+    "sinon": "1",
+    "sinon-chai": "2",
+    "source-map-support": "0.3"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rloopteam/auto-invite/issues"
+  },
+  "homepage": "https://github.com/rloopteam/auto-invite#readme",
+  "dependencies": {
+    "bluebird": "^2.10.2"
+  }
+}

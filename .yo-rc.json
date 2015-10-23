@@ -1,0 +1,15 @@
+{
+  "generator-emiw": {
+    "banners": {
+      "test": [
+        "global expect:false, assert:false",
+        "eslint-env mocha"
+      ],
+      "file": [],
+      "all": [
+        "(c) 2015 EMIW, LLC. emiw.xyz/license"
+      ]
+    },
+    "basedir": "src"
+  }
+}
