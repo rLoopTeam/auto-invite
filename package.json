@@ -51,6 +51,8 @@
   },
   "homepage": "https://github.com/rloopteam/auto-invite#readme",
   "dependencies": {
-    "bluebird": "^2.10.2"
+    "bluebird": "^2.10.2",
+    "koa": "^1.1.1",
+    "supertest": "^1.1.0"
   }
 }
